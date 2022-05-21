@@ -1,0 +1,42 @@
+# def name(unreal,a=5):
+#     return unreal,a
+# print(name(12 +))
+from dataclasses import replace
+from re import I
+import re
+
+
+# text = str(input('Введите текст'))
+# list = []
+# def rest(text):
+#     for i in text.lower().split():
+#         if 'жы' in i and 'шы':
+#             list.append([  
+#             i,
+#             i.replace('ы' ,'и')
+#         ]
+#         )
+#     return list
+# print(rest(text))
+
+
+# text = str(input('Введите слово'))
+# list = []
+# def rog(text):
+#     for i in text.lower().split():
+#         if 'жы' in i and 'шы':
+#             list.append([
+#             i,
+#             i.replace('ы','и')
+#         ]
+#         )
+#     return list
+# print(rog(text))
+
+
+text = str(input('Введиет предложение: '))
+pol1 = []
+x = len(text)//2
+print(x)
+    
+    

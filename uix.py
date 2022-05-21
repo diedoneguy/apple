@@ -84,14 +84,21 @@
 # print(a._A__run())
 
 
-from django.forms import PasswordInput
+# from django.forms import PasswordInput
 
 
-user = {'aktan':12,
-        'age':19,
-        'height':178
-}
+# user = {'aktan':12,
+#         'age':19,
+#         'height':178
+# }
 
+# dictionary = {
+#     'admin':['hello','buy']
+# }
+# dictionary.update({
+#     'admin':'thank you'
+#     })
+# print(dictionary)
 
 
 # user.update({
@@ -301,17 +308,152 @@ user = {'aktan':12,
 #         print(num1 * num2)
 #     elif z == ':':
 #         print(num1 // num2) 
-symbols = ('!','@','$','%','+','=','-','.','/','~',':','|')
-password1 = input('Введите пароль: ')
-password2 = input('Подвердите пароль: ')    
-def confifrim_password(password1,password2):
-    for i in password1:
-        if i in symbols:
-            return 'Пароль не должен содержать знаков'
-    if password1 == password2:
-        return 'Вы авторизовались успешно'
-    elif password1 != password2:
-        return 'Пароль введен неправильно,повторите попытку'
-print(confifrim_password(password1,password2))
+# symbols = ('!','@','$','%','+','=','-','.','/','~',':','|')
+# password1 = input('Введите пароль: ')
+# password2 = input('Подвердите пароль: ')    
+# def confifrim_password(password1,password2):
+#     for i in password1:
+#         if i in symbols:
+#             return 'Пароль не должен содержать знаков'
+#     if password1 == password2:
+#         return 'Вы авторизовались успешно'
+#     elif password1 != password2:
+#         return 'Пароль введен неправильно,повторите попытку'
+# print(confifrim_password(password1,password2))
 
+
+# a = ('12     21   34   as    df')
+# def trev(a):
+#     b = a.split('  ')
+#     b = ''.join(b)
+#     return b
+# print(trev(a))
+# a = ('123465')
+# b = a.isdigit()#каждая строка цифра
+# print(a,b)
+# s = ('abcdefg')
+# w = s.isalpha()#каждая строка буква
+# print(s,w)
+
+
+
+# a = 'adssadfsdfdsfks'
+# s = len(a)
+# def length(a):
+#     count = 0
+#     for i in a:
+#         count += 1
+#     return count
+# f = length(a)
+# print(f)
+
+
+
+# def save_file(obj,file):
+#     with open (f'{file}.txt','a') as f:
+#         f.write(f'{obj}'\n)
+
+# b = '!@#$%^&*()_+=||??/><<'
+# a = input('Введите слово')
+# def lets(a):
+#     if  a.isalpha():
+#         return 'Строка состоит из букв'
+#     elif a.isdigit():
+#         return 'Строка состоит из сифр'
+#     elif b in a:
+#         return 'Здесь имеются символы'
+#     else:
+#         return 'В среди нас предатель'
+# print(lets(a))
+
+
+# b = '!@#$%^&*()_+=||??/><<'
+# a = input('Введите слово')
+# def lets(a):
+#     if  a.isalpha():
+#         return 'Строка состоит из букв'
+#     elif a.isdigit():
+#         return 'Строка состоит из сифр'
+#     elif b in a:
+#         return 'Здесь имеются символы'
+#     else:
+#         return 'В среди нас предатель'
+        
+# print(lets(a))
+# print('Есть символы ' + b ,a.find(b) != -1)
+
+# c = ('12345678910')
+# b = ('!@#$%^&*()_+=||??/><!!<')
+# a = input('Введите слово')
+# def symbols(a):
+#     for i in b:
+#         if i in a:
+#             return 'Тут есть символы'
+#         elif c in a:
+#             return 'Тут есть цифры'
+#         else:
+#             return 'Тут чисто'
+
+# print(symbols(a))
+# def issimvol(spisok):
+#     spisok = '!@#$%^&*'
+#     for i in spisok:
+#         if i not in spisok:
+#             return False
+#     return True
+
+# def funk(b):
+
+#     if b.isalpha():
+#         return 'only letters'
+#     elif b.isdigit():
+#         return 'only numbers'
+#     elif 
+# a = input('Введите слова')
+# b = ('12345678910')
+# c = ('!@#$%^&*+_-=')
+# def proverka(a):
+#     for i in a:
+#         if i.isdigit():
+#             return 'Состоит только из цифр и имеет цифры внутри'
+#         elif i.isalpha() or c in i:
+#             return 'Состоит из букв или имеются символы'
+# print(proverka(a))
+        
+
+# a = 'aktan chiltemirov youruslanovich'
+# for i in a:
+#     c = a.replace('a','p')
+# print(c)
+        
+
+# text = str(input('Пишите предложение: '))
+# # list = []
+# # def rat(text):
+# #     if 'ы'in text:
+# #         sublime = text.replace('жы','жи')
+# #         list.append
+# #         sublime = text.replace('чьк','чк')
+# #         sublime = text.replace('чя','ча')
+# #     return list.append(sublime)
+# # print(rat(text))
+# def s(text):
+#     list1 = []
+#     for i in text.lower().split():# проходимся по тексту переводя слова в маленький ренгистр
+#         if 'жы' in i or 'шы' in i:#если жы ши в ай тоесть в тексте
+#             list1.append(#добавляешь в лист1 слово с ошибкой и исправленную 
+#                 [
+#                     i,
+#                     i.replace('ы' ,'и')#меняешь ы вы слове жи ши на правильную 
+#                 ]
+#             )
+#     return list1#возврашяешь лист1
+# print(s(text
+
+
+
+
+numbers = 
+        
+        
 
