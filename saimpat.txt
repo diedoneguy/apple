@@ -1,0 +1,2 @@
+email: superidol@email.ru
+password: deadpool

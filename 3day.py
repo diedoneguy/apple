@@ -116,9 +116,9 @@ print(sp,l)
 #     elem = a * 5
 #     return a, 'count:', len(elem)
 # print(qwe(word))
-bash = []
-for i in range(1,10):
-    print (int(i[0,8]))
+# bash = []
+# for i in range(1,10):
+#     print (int(i[0,8]))
 
     
 

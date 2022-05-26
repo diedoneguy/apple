@@ -453,7 +453,15 @@
 
 
 
-numbers = 
-        
+# numbers = '1111'
+# po = '2222'
+# def axel(numbers,po):
+#     return numbers*2 + po*2
+# print(axel(numbers,po))
         
 
+a = str(input('Введиет слово '))
+if a.lower() == a.lower()[::-1]:
+    print('Это палиндром',[a])
+else:
+    print('Это не палиндром',[a])

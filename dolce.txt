@@ -1,0 +1,1 @@
+text: /usr/local/bin/python3 /Users/mac/dolce/seven_day.py 
